@@ -1,24 +1,22 @@
 # 文档
-这是一个xxx库，有xxx功能
+pubsub是一个小而美的发布订阅者模式库。
 
-## api模版
-函数简单介绍
+## Md5
 
-函数详细介绍
+md5 生成函数
+对应生成传入参数字符串的 md5 值
 
-函数参数和返回值（要遵守下面的例子的规则）
+函数参数和返回值
 
-- param {string} name1 name1描述
-- param {number} [name2] name2描述 ([]代表可选参数)
-- param {string|number} name3 name3描述 (| 代表多种类型)
-- param {*} name3 name3描述 (*代表任意类型)
-- param {boolean} obj.sex 复合参数定义
-- return {string} 返回值描述
+- param {string} str 需要取md5值的字符串
+- return {object} 生成的md5值，32位小写
 
-举个例子（要包含代码用例）
+举个例子
 
 ```js
-// 代码
+import md5 from '@jsmini/md5'
+
+md5('a') // 生成hash串 0cc175b9c0f1b6a831c399e269772661
 ```
 
-特殊说明，比如特殊情况下会报错等
+

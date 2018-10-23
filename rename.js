@@ -2,7 +2,7 @@ var path = require('path');
 
 var cdkit = require('cdkit')
 
-var fromName = 'yanhajing';
+var fromName = 'base';
 var toName = 'md5';
 
 var curPathName = __dirname.split('/').pop();
