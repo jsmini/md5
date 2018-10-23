@@ -13,4 +13,14 @@ describe('单元测试', function() {
             expect(base('_')).to.equal('b14a7b8059d9c055954c92674ce60032')
         })
     })
+
+    describe('错误处理', function() {
+        it('test: 空值', function() {
+            try {
+                expect(base())
+            } catch (err) {
+                expect(err.message).to.equal('Missing required parameters.')
+            }
+        })
+    })
 })

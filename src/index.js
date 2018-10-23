@@ -235,6 +235,7 @@ function md5(string, key, raw) {
     if (!string) {
         throw new Error('Missing required parameters.')
     }
+
     string = String(string)
     
     if (!key) {
