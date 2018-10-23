@@ -21,10 +21,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jsmini/base.git"
+    "url": "git://github.com/jsmini/md5.git"
   },
   "bugs": {
-    "url": "https://github.com/jsmini/base/issues"
+    "url": "https://github.com/jsmini/md5/issues"
   },
   "devDependencies": {
     "babel-core": "6.26.0",

@@ -34,7 +34,7 @@ $ npm install --save @jsmini/md5
 如果你是node环境
 
 ```js
-var name = require('@jsmini/pubsub').name;
+var name = require('@jsmini/md5').name;
 ```
 
 如果你是webpack等环境
