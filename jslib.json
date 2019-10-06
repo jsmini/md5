@@ -1,0 +1,9 @@
+{
+    "name": "md5",
+    "npmname": "@jsmini/md5",
+    "umdname": "jsmini_md5",
+    "username": "jsmini",
+    "type": "js",
+    "lang": "zh",
+    "version": "1.4.0"
+}

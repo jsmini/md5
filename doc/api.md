@@ -14,7 +14,7 @@ md5 生成函数
 举个例子
 
 ```js
-import md5 from '@jsmini/md5'
+import { md5 } from '@jsmini/md5'
 
 md5('a') // 生成hash串 0cc175b9c0f1b6a831c399e269772661
 ```

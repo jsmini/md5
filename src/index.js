@@ -230,7 +230,7 @@ function hex_hmac_md5(k, d) {
     return rstr2hex(raw_hmac_md5(k, d))
 }
 
-function md5(string, key, raw) {
+export function md5(string, key, raw) {
     // 参数校验
     if (!string) {
         throw new Error('Missing required parameters.')
@@ -249,5 +249,3 @@ function md5(string, key, raw) {
     }
     return raw_hmac_md5(key, string)
 }
-
-export default md5
